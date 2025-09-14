@@ -80,8 +80,8 @@ public class Cuenta {
 
     // METODO CONSULTAR DATOS
     public void consultarDatos() {
-        System.out.println("LOS DATOS DE LA CUENTA SON: ");
-        System.out.println("NUMERO DE LA CUENTA: " + numeroCuenta);
+        System.out.println("\n ---DATOS DE LA CUENTA--- ");
+        System.out.println("NÚMERO DE LA CUENTA: " + numeroCuenta);
         System.out.println("DNI DE LA CUENTA: " + dniCliente);
         System.out.println("SALDO DE LA CUENTA: " + saldoActual);
     }
